@@ -1,0 +1,229 @@
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Bold.ttf');
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanL-Reg.otf');
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanL-Bold.otf');
+	font-weight: bold;
+}
+
+
+@font-face{
+	font-family: Michroma;
+	src: url('../font/Michroma.ttf');
+}
+
+/* Main Navigation  */
+header{
+	width: 100%;
+	height: 120px;
+}
+
+.navbar li{
+	display: inline;
+	margin-right: 20px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: JosefinSans;
+	text-align: center;
+	color: #333;
+
+}
+
+.logo {
+	float : left;
+	padding-left: 150px;
+}
+
+img {	
+	width: 150px;
+	height: 90px;
+}
+
+
+.navbar a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar a:hover{
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px solid #E05434;
+
+}
+
+.navbar a.active{
+	color: #E05434;
+	text-decoration: inherit;
+}
+
+.drop {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.dropdown{
+	display:inline-block;
+	overflow: hidden;
+	padding-right: 15px;
+	
+}
+
+
+.dropdown:hover .dropdownContent{
+	display: block;
+}
+
+.dropdownContent{
+	display: none;
+	position: fixed;
+	z-index: 1;
+}
+
+.dropdownContent a{
+	margin: 0;
+	padding-top: 10px;
+	display: block;
+	text-align: left;
+	float: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.dropdownContent a:hover {
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px #E05434;
+}
+
+
+.navbar{
+	overflow: hidden;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	padding-right: 50px;
+	float : right;	
+}
+
+
+
+/* -----------------Page Content--------------  */
+
+
+h1{
+	margin-top: 40px;
+	text-align: center;
+	font-family: JosefinSans;
+}
+
+.galleryContainer {
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.dFlex {
+	/* margin-left: auto;
+	margin-right: auto;
+	overflow: hidden; */
+	display: flex;
+	align-items: center;
+}
+
+.space {
+	/* float: left;
+	width: 33.3%; */
+	padding: 10px;
+}
+
+
+.galleryImg {
+	width: 250px;
+	height: 400px;
+}
+
+
+/* -----------------Footer--------------  */
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #333;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+
+.contactTitle{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom : 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+.contact li{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	text-align: left;
+	padding-bottom: 4px;
+
+}
+
+
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+
+.iconBar{
+	font-size: 25px;	
+}
+
+.iconBar a {
+	color: white;
+}
+
+.iconBar a:hover {
+	color: #E05434;
+
+}
+
+
+.back a:hover{
+	text-decoration: underline;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin: 50px 15px;
+}

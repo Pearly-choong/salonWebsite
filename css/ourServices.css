@@ -1,0 +1,285 @@
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Bold.ttf');
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanL-Reg.otf');
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanL-Bold.otf');
+	font-weight: bold;
+}
+
+
+@font-face{
+	font-family: Michroma;
+	src: url('../font/Michroma.ttf');
+}
+
+/* Main Navigation  */
+header{
+	width: 100%;
+	height: 120px;
+}
+
+.navbar li{
+	display: inline;
+	margin-right: 20px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: JosefinSans;
+	text-align: center;
+	color: #333;
+
+}
+
+.logo {
+	float : left;
+	padding-left: 150px;
+}
+
+img {	
+	width: 150px;
+	height: 90px;
+}
+
+
+.navbar a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar a:hover{
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px solid #E05434;
+
+}
+
+.navbar a.active{
+	color: #E05434;
+	text-decoration: inherit;
+}
+
+.drop {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.dropdown{
+	display:inline-block;
+	overflow: hidden;
+	padding-right: 15px;
+	
+}
+
+
+.dropdown:hover .dropdownContent{
+	display: block;
+}
+
+.dropdownContent{
+	display: none;
+	position: fixed;
+	z-index: 1;
+}
+
+.dropdownContent a{
+	margin: 0;
+	padding-top: 10px;
+	display: block;
+	text-align: left;
+	float: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.dropdownContent a:hover {
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px #E05434;
+}
+
+
+.navbar{
+	overflow: hidden;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	padding-right: 50px;
+	float : right;	
+}
+
+
+
+/* -----------------Page Content--------------  */
+
+
+#sec1 {
+	background: url("../images/gallery11.jpg");
+	background-size: cover;
+	width:100%;
+	height: auto;
+	padding: 10px 10px;
+}
+
+#sec2 {
+	background: url("../images/beauty.jpg");
+	background-size: cover;
+	width:100%;
+	height: auto;
+	padding: 10px 10px;
+}
+
+.hairTable{
+	border: 5px solid #333;
+	height: 1600px;
+	width: 900px;
+	padding: 30px 50px;
+	margin: 30px 30px;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-color: white;
+	opacity: 0.8;
+}
+
+h1{
+	text-align: center;
+	
+}
+
+.beautyTable{
+	border: 5px solid #333;
+	height: 1200px;
+	width: 900px;
+	padding: 30px 50px;
+	margin: 30px 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 50%;
+	background-color: white;
+	opacity: 0.8;
+
+}
+
+
+.tableH{
+	text-align: left;
+	font-family: NimbusSanL;
+	font-size: 20px;
+	padding-top: 50px ;
+	color: #E05434
+
+}
+
+
+td{
+	padding: 10px;
+	font-family: NimbusSanL;
+
+}
+
+.price{
+	position: relative;
+	left: 250px;
+}
+
+table{
+	font-family: NimbusSanL;
+	font-size: 14px;
+	color: black;
+}
+
+/* -----------------Footer--------------  */
+
+.footer{
+	width: 100%;
+	height: 340px;
+	background-color: #333;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.back{	
+	margin-left: 85%;
+}
+
+.back a {
+	color: white;
+}
+
+.back a:hover{
+	color: #E05434;
+}
+
+
+.contactTitle{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom : 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+.contact li{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	text-align: left;
+	padding-bottom: 4px;
+
+}
+
+
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+
+.iconBar{
+	font-size: 25px;	
+}
+
+.iconBar a {
+	color: white;
+}
+
+.iconBar a:hover {
+	color: #E05434;
+
+}
+
+
+.back a:hover{
+	text-decoration: underline;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin: 40px 15px;
+}

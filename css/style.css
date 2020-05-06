@@ -1,0 +1,356 @@
+/* * {
+	box-sizing: border-box;
+	margin : 0;
+	padding : 0;
+} */
+
+
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Bold.ttf');
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanL-Reg.otf')
+	/*format:('opentypeface');*/
+}
+
+@font-face{
+	font-family: NimbusSanL;
+	src: url('../font/NimbusSanLs-Bold.otf');
+	font-weight: bold;
+}
+
+
+@font-face{
+	font-family: Michroma;
+	src: url('../font/Michroma.ttf');
+}
+
+
+/* -----------------Main Navigation--------------  */
+
+header{
+	width: 100%;
+	height: 120px;
+}
+
+.navbar li{
+	display: inline;
+	margin-right: 20px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: JosefinSans;
+	text-align: center;
+	color: #333;
+
+}
+
+.logo {
+	float : left;
+	padding-left: 150px;
+}
+
+img {	
+	width: 150px;
+	height: 90px;
+}
+
+
+.navbar a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar a:hover{
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px solid #E05434;
+
+}
+
+.navbar a.active{
+	color: #E05434;
+	text-decoration: inherit;
+}
+
+.drop {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.dropdown{
+	display:inline-block;
+	overflow: hidden;
+	padding-right: 15px;
+	
+}
+
+
+.dropdown:hover .dropdownContent{
+	display: block;
+}
+
+.dropdownContent{
+	display: none;
+	position: fixed;
+	z-index: 1;
+}
+
+.dropdownContent a{
+	margin: 0;
+	padding-top: 10px;
+	display: block;
+	text-align: left;
+	float: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.dropdownContent a:hover {
+	color: #E05434;
+	text-decoration: inherit;
+	border-bottom: 2px #E05434;
+}
+
+
+.navbar{
+	overflow: hidden;
+	padding-bottom: 40px;
+	margin-top: 10px;
+	padding-right: 50px;
+	float : right;	
+}
+
+
+
+
+/* -----------------Page Content--------------  */
+
+.text h1{
+	font-family:JosefinSans;
+	color: white;
+	font-size: 50px;
+
+}
+
+.text p{
+	font-family:JosefinSans;
+	color: white;
+	font-size: 20px;
+
+
+}
+
+
+.text{
+	padding: 150px;
+	padding-top: 350px;
+	position: absolute;
+	
+}
+
+
+.button{
+	
+	width: 100px;
+	padding: 20px;
+	border: 1px solid white;
+	outline: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+
+.button:hover, .button:active{
+	background-color: white;
+	color: #E05434;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+	
+}
+
+
+
+
+section{
+	width:100%;
+	height:1000px;
+
+}
+
+section.sec1{
+	background: url("../images/banner6a.jpg");
+	background-size: cover;
+	width:100%;
+	height: 750px;
+	/*background-attachment: fixed;*/
+}
+
+
+section.sec2{
+	height: 500px;
+
+}
+
+
+
+section.sec3{
+	background: url("../images/banner2.jpg");
+	height: 200px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+section.sec4{
+	height: 300px;
+}
+
+
+section.sec5{
+	background: url("../images/banner2.jpg");
+	height: 250px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.sec2, .sec4 h1{
+	font-family: JosefinSans;
+	color: black;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.sec2 p{
+	font-family:NimbusSanL;
+	font-size: 18px;
+	color: black;
+	text-align: left;
+	margin-left: 250px;
+	margin-right: 250px;
+	line-height: 30px;
+	/*text-orientation: justify;*/
+}
+
+
+
+.info li{
+	/* display: inline; */
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	padding: 30px;
+	border-radius: 60px;
+}
+
+
+.sec3 h1{
+	font-family: Michroma;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-size: 60px;
+	word-spacing: 0.5em;
+}
+
+
+
+.row{
+	display: inline;
+	/*margin-left: 200px;
+	margin-right: 50px;*/
+	margin-left: auto;
+	margin-right: auto;
+	overflow : hidden;
+}
+
+
+/* -----------------Footer--------------  */
+
+.footer{
+	height: 340px;
+	background-color: #333;
+	margin-bottom: 0;
+
+}
+
+.back{	
+	margin-left: 85%;
+}
+
+.back a {
+	color: white;
+}
+
+.back a:hover{
+	color: #E05434;
+}
+
+
+.contactTitle{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom : 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+.contact li{
+	color: white;
+	font-family: NimbusSanL, helvetica, sans-serif;
+	text-align: left;
+	padding-bottom: 4px;
+
+}
+
+
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+
+.iconBar{
+	font-size: 25px;	
+}
+
+.iconBar a {
+	color: white;
+}
+
+.iconBar a:hover {
+	color: #E05434;
+
+}
+
+
+.back a:hover{
+	text-decoration: underline;
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin: 40px 15px;
+}
